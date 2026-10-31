@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#f6f4ef">
+  <meta name="description" content="Discover MK Creation readymade garments. Thoughtfully made everyday styles, available for wholesale in clearly packed size assortments.">
+  <title>MK Creation — Everyday, beautifully made</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="announcement">A little more style in every shipment <span>— wholesale made easy</span></div>
+  <header class="header">
+    <div class="wrap nav">
+      <a class="brand" href="#" aria-label="MK Creation home">
+        <span class="brand-mark">MK</span>
+        <span class="brand-copy"><span class="brand-name">MK CREATION</span><span class="brand-sub">Everyday, beautifully made</span></span>
+      </a>
+      <nav class="nav-links" id="navLinks" aria-label="Main navigation">
+        <a href="#collection">Clothes</a>
+        <span class="nav-coming-soon" aria-label="Coming soon">
+          <span class="nav-coming-soon-images" aria-hidden="true">
+            <img src="Screenshot 2026-10-28 195055.png" alt="">
+            <img src="Screenshot 2026-10-28 195039.png" alt="">
+            <img src="Screenshot 2026-10-28 195019.png" alt="">
+          </span>
+          <span class="nav-coming-soon-copy"><strong>Coming soon</strong></span>
+        </span>
+        <a href="#wholesale">Wholesale</a>
+        <a href="#about">Our story</a>
+      </nav>
+      <div class="nav-actions">
+        <button class="nav-action" type="button" id="openInquiry" aria-label="Open wholesale inquiry">
+          Your inquiry <span class="bag-count" id="bagCount">0</span>
+        </button>
+        <button class="mobile-toggle" id="mobileToggle" type="button" aria-label="Open navigation menu" aria-expanded="false">☰</button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="wrap hero" aria-labelledby="heroTitle">
+      <div class="hero-copy-wrap">
+        <span class="eyebrow">Made for everyday</span>
+        <h1 id="heroTitle">Good clothes.<br><em>Good business.</em></h1>
+        <p class="hero-copy">Thoughtful readymade styles your customers will reach for again and again. Wholesale assortments, packed with care and ready for your shelves.</p>
+        <div class="hero-actions">
+          <a class="button" href="#collection">Explore the collection <span aria-hidden="true">→</span></a>
+          <a class="text-link" href="#wholesale">How wholesale works</a>
+        </div>
+        <div class="hero-notes">
+          <span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><path d="m5 12 4 4L19 6"/><circle cx="12" cy="12" r="10"/></svg>Made to be worn</span>
+          <i class="note-divider"></i>
+          <span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><path d="M3 7h18v13H3zM7 7V4h10v3M8 11v5m4-5v5m4-5v5"/></svg>Wholesale ready</span>
+        </div>
+      </div>
+      <div class="hero-visual">
+        <div class="hero-image hero-logo-panel" role="img" aria-label="MK Creation logo">
+          <div class="hero-logo">
+            <span class="hero-logo-mark" aria-hidden="true">MK</span>
+            <span class="hero-logo-name">MK CREATION</span>
+            <span class="hero-logo-tagline">Everyday, beautifully made</span>
+            <span class="hero-logo-divider" aria-hidden="true"></span>
+          </div>
+          <span class="image-index hero-logo-index">MK / WHOLESALE</span>
+        </div>
+        <div class="hero-tag">A good fit for your store.</div>
+      </div>
+    </section>
+
+    <div class="trust-strip" aria-label="Our wholesale benefits">
+      <div class="wrap trust-inner">
+        <div class="trust-item"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M4 7h16v13H4zM8 7V4h8v3M8 12h8"/></svg>Clear size assortments</div>
+        <div class="trust-item"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M3 7h12v11H3zM15 11h4l3 3v4h-7z"/><circle cx="7.5" cy="19" r="1.5"/><circle cx="18.5" cy="19" r="1.5"/></svg>Wholesale quantities</div>
+        <div class="trust-item"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 3 4 7v5c0 5 3.5 8 8 9 4.5-1 8-4 8-9V7l-8-4Z"/><path d="m9 12 2 2 4-4"/></svg>Packed with care</div>
+        <div class="trust-item"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M4 18V5m0 13h16M8 14l3-4 3 2 5-6"/></svg>Made for your shelves</div>
+      </div>
+    </div>
+
+    <section class="wrap section" id="collection" aria-labelledby="collectionTitle">
+      <div class="section-heading">
+        <div><span class="eyebrow">The collection</span><h2 id="collectionTitle">Find your size mix.</h2></div>
+        <p class="section-intro">Choose the sizes that work for your customers. Each size is packed in its own wholesale bag, so ordering stays simple.</p>
+      </div>
+      <div class="size-grid" id="sizeGrid" aria-live="polite"></div>
+      <div class="assortment" id="wholesale">
+        <div class="assortment-copy">
+          <span class="eyebrow">Wholesale, made simple</span>
+          <h3>Just the sizes you need. Nothing complicated.</h3>
+          <p>Every size comes in a clearly counted bag. Mix and match your assortment, add bags to your inquiry, and tell us a little about your store.</p>
+          <div class="assortment-stats">
+            <div class="stat"><strong>6 pcs</strong><span>in the first 4 sizes</span></div>
+            <i class="stat-rule"></i>
+            <div class="stat"><strong>9 pcs</strong><span>in the last 3 sizes</span></div>
+          </div>
+        </div>
+        <div class="assortment-photo">
+          <img src="https://images.unsplash.com/photo-1441986300917-64674bd600d8?auto=format&amp;fit=crop&amp;w=1000&amp;q=85" alt="A bright, welcoming clothing boutique ready for a new collection" loading="lazy">
+        </div>
+      </div>
+    </section>
+
+    <section class="wrap section story" id="about" aria-labelledby="storyTitle">
+      <div class="story-card">
+        <div class="story-photo"><img src="https://images.unsplash.com/photo-1490481651871-ab68de25d43d?auto=format&amp;fit=crop&amp;w=1000&amp;q=85" alt="A thoughtfully styled selection of everyday garments" loading="lazy"></div>
+        <div class="story-copy">
+          <span class="eyebrow">A little about us</span>
+          <h2 id="storyTitle">Made for real days, and all the moments in between.</h2>
+          <p>At MK Creation, we believe everyday clothing should feel as good as it looks. We bring together wearable styles and straightforward wholesale packs to help independent stores stock with confidence.</p>
+          <a class="text-link" href="#collection">See the available sizes <span aria-hidden="true">→</span></a>
+        </div>
+      </div>
+    </section>
+
+    <section class="wrap closing">
+      <div class="closing-card">
+        <div><h2>Ready to make room for something good?</h2><p>Build your size assortment and prepare a wholesale inquiry.</p></div>
+        <button class="button" type="button" id="closingInquiry">Start your inquiry <span aria-hidden="true">→</span></button>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="wrap footer-main">
+      <a class="brand" href="#" aria-label="MK Creation home">
+        <span class="brand-mark">MK</span>
+        <span class="brand-copy"><span class="brand-name">MK CREATION</span><span class="brand-sub">Everyday, beautifully made</span></span>
+      </a>
+      <span class="footer-note">Readymade garments · Wholesale assortments</span>
+      <div class="footer-links"><a href="#collection">Collection</a><a href="#wholesale">Wholesale</a><a href="#about">Our story</a></div>
+    </div>
+    <div class="footer-bottom"><div class="wrap">© <span id="year"></span> MK Creation. Made with care.</div></div>
+  </footer>
+
+  <div class="modal-backdrop" id="inquiryModal" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
+    <div class="modal">
+      <button class="modal-close" id="closeInquiry" type="button" aria-label="Close inquiry">×</button>
+      <span class="eyebrow">Wholesale enquiry</span>
+      <h2 id="modalTitle">Let’s make a good fit.</h2>
+      <p class="modal-lede">Review your bag selection, then prepare an inquiry to share with MK Creation.</p>
+      <div class="order-list" id="orderList"></div>
+      <div class="order-total"><span>Total pieces in your selection</span><span id="totalPieces">0 pcs</span></div>
+      <form id="inquiryForm">
+        <div class="form-grid">
+          <div class="field"><label for="customerName">Your name *</label><input id="customerName" name="name" autocomplete="name" required placeholder="Name"></div>
+          <div class="field"><label for="storeName">Store / business</label><input id="storeName" name="store" autocomplete="organization" placeholder="Business name"></div>
+          <div class="field full"><label for="customerContact">Email or phone *</label><input id="customerContact" name="contact" required placeholder="How can we reach you?" autocomplete="email"></div>
+          <div class="field full"><label for="customerMessage">Anything else? (optional)</label><textarea id="customerMessage" name="message" placeholder="Tell us what you are looking for..."></textarea></div>
+        </div>
+        <button class="button modal-submit" type="submit">Prepare my inquiry <span aria-hidden="true">→</span></button>
+        <p class="modal-fineprint">This creates a message for you to copy and share. No details are sent from this page.</p>
+      </form>
+      <div class="draft" id="draftPanel">
+        <p>Your inquiry is ready. Copy the message below and share it with MK Creation through your preferred contact channel.</p>
+        <textarea id="draftText" readonly aria-label="Your prepared inquiry"></textarea>
+        <button class="button" type="button" id="copyDraft">Copy inquiry</button>
+      </div>
+    </div>
+  </div>
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+  <script>
+    const sizes = [
+      { size: "16 × 20", pieces: 6 },
+      { size: "18 × 20", pieces: 6 },
+      { size: "20 × 24", pieces: 6 },
+      { size: "24 × 34", pieces: 6 },
+      { size: "34 × 38", pieces: 9 },
+      { size: "36 × 40", pieces: 9 },
+      { size: "40 × 44", pieces: 9 }
+    ];
+    const quantities = new Array(sizes.length).fill(0);
+    const grid = document.getElementById("sizeGrid");
+    const bagCount = document.getElementById("bagCount");
+    const orderList = document.getElementById("orderList");
+    const totalPieces = document.getElementById("totalPieces");
+    const modal = document.getElementById("inquiryModal");
+    const toast = document.getElementById("toast");
+    let toastTimer;
+
+    function renderSizes() {
+      grid.innerHTML = sizes.map((item, index) => `
+        <article class="size-card">
+          <div class="size-topline"><span class="size-label">Wholesale size</span><span class="size-number">0${index + 1}</span></div>
+          <div><div class="size-dimensions">${item.size}</div><div class="size-unit">Size assortment</div></div>
+          <div class="card-bottom"><span class="pcs-pill"><i class="pcs-dot"></i>${item.pieces} pcs / bag</span>
+            <button class="add-button" type="button" data-add="${index}" aria-label="Add one bag of size ${item.size}">Add a bag <svg viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.7"><path d="M10 4v12M4 10h12"/></svg></button>
+          </div>
+        </article>`).join("");
+    }
+
+    function renderInquiry() {
+      const bagTotal = quantities.reduce((sum, qty) => sum + qty, 0);
+      const pieceTotal = quantities.reduce((sum, qty, index) => sum + qty * sizes[index].pieces, 0);
+      bagCount.textContent = bagTotal;
+      orderList.innerHTML = bagTotal === 0
+        ? '<div class="order-empty">No bags selected yet. Close this window and add sizes from the collection.</div>'
+        : quantities.map((qty, index) => qty > 0 ? `
+          <div class="order-row">
+            <div class="order-info"><strong>${sizes[index].size}</strong><span>${sizes[index].pieces} pieces per bag · ${qty * sizes[index].pieces} pieces total</span></div>
+            <div class="quantity" aria-label="Quantity of size ${sizes[index].size}">
+              <button type="button" data-change="${index}" data-delta="-1" aria-label="Remove one bag">−</button>
+              <span>${qty}</span>
+              <button type="button" data-change="${index}" data-delta="1" aria-label="Add one bag">+</button>
+            </div>
+          </div>` : "").join("");
+      totalPieces.textContent = `${pieceTotal} ${pieceTotal === 1 ? "pc" : "pcs"}`;
+    }
+
+    function showToast(message) {
+      toast.textContent = message;
+      toast.classList.add("show");
+      clearTimeout(toastTimer);
+      toastTimer = setTimeout(() => toast.classList.remove("show"), 2600);
+    }
+
+    function openModal() {
+      renderInquiry();
+      modal.classList.add("open");
+      document.body.style.overflow = "hidden";
+      document.getElementById("closeInquiry").focus();
+    }
+
+    function closeModal() {
+      modal.classList.remove("open");
+      document.body.style.overflow = "";
+      document.getElementById("openInquiry").focus();
+    }
+
+    grid.addEventListener("click", event => {
+      const button = event.target.closest("[data-add]");
+      if (!button) return;
+      quantities[Number(button.dataset.add)]++;
+      renderInquiry();
+      showToast("One bag added to your inquiry.");
+    });
+
+    orderList.addEventListener("click", event => {
+      const button = event.target.closest("[data-change]");
+      if (!button) return;
+      const index = Number(button.dataset.change);
+      quantities[index] = Math.max(0, quantities[index] + Number(button.dataset.delta));
+      renderInquiry();
+    });
+
+    document.getElementById("openInquiry").addEventListener("click", openModal);
+    document.getElementById("closingInquiry").addEventListener("click", openModal);
+    document.getElementById("closeInquiry").addEventListener("click", closeModal);
+    modal.addEventListener("click", event => {
+      if (event.target === modal) closeModal();
+    });
+    document.addEventListener("keydown", event => {
+      if (event.key === "Escape" && modal.classList.contains("open")) closeModal();
+    });
+
+    document.getElementById("inquiryForm").addEventListener("submit", event => {
+      event.preventDefault();
+      const form = new FormData(event.currentTarget);
+      const selectedSizes = quantities.map((qty, index) => qty > 0
+        ? `• ${sizes[index].size}: ${qty} bag${qty === 1 ? "" : "s"} × ${sizes[index].pieces} pcs = ${qty * sizes[index].pieces} pcs`
+        : "").filter(Boolean);
+      const pieceTotal = quantities.reduce((sum, qty, index) => sum + qty * sizes[index].pieces, 0);
+      const message = [
+        "Hello MK Creation, I would like to enquire about a wholesale order.",
+        "",
+        `Name: ${form.get("name")}`,
+        `Store / business: ${form.get("store") || "Not provided"}`,
+        `Email or phone: ${form.get("contact")}`,
+        "",
+        "Selected sizes:",
+        ...(selectedSizes.length ? selectedSizes : ["No bags selected yet"]),
+        `Total: ${pieceTotal} pieces`,
+        "",
+        `Message: ${form.get("message") || "—"}`
+      ].join("\n");
+      document.getElementById("draftText").value = message;
+      document.getElementById("draftPanel").classList.add("visible");
+      document.getElementById("copyDraft").focus();
+    });
+
+    document.getElementById("copyDraft").addEventListener("click", async event => {
+      const draft = document.getElementById("draftText");
+      try {
+        await navigator.clipboard.writeText(draft.value);
+        showToast("Inquiry copied. It’s ready to share.");
+      } catch {
+        draft.focus();
+        draft.select();
+        showToast("Inquiry selected. Copy it to share.");
+      }
+      event.currentTarget.textContent = "Inquiry copied ✓";
+    });
+
+    const mobileToggle = document.getElementById("mobileToggle");
+    const navLinks = document.getElementById("navLinks");
+    mobileToggle.addEventListener("click", () => {
+      const open = navLinks.classList.toggle("open");
+      mobileToggle.setAttribute("aria-expanded", String(open));
+      mobileToggle.setAttribute("aria-label", open ? "Close navigation menu" : "Open navigation menu");
+      mobileToggle.textContent = open ? "×" : "☰";
+    });
+    navLinks.addEventListener("click", event => {
+      if (event.target.closest("a")) {
+        navLinks.classList.remove("open");
+        mobileToggle.setAttribute("aria-expanded", "false");
+        mobileToggle.setAttribute("aria-label", "Open navigation menu");
+        mobileToggle.textContent = "☰";
+      }
+    });
+
+    document.getElementById("year").textContent = new Date().getFullYear();
+    renderSizes();
+    renderInquiry();
+  </script>
+</body>
+</html>
